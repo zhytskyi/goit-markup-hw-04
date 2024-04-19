@@ -434,6 +434,7 @@ button {
 
 footer .container {
   display: flex;
+  align-items: baseline;
 }
 .footer-page a {
   display: inline-block;
@@ -470,12 +471,13 @@ footer .container {
 .footer-soc-head {
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
 }
-.socmedia-list {
+footer .socmedia-list {
+  gap: 16px;
 }
 
 footer .socmedia-link:hover,
